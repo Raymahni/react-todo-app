@@ -1,0 +1,32 @@
+.Task-stats .Stat-item {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.Task-stats .Stat-item .Stats-footer img {
+  width: 5rem;
+}
+
+.Task-stats .Stat-item .Stats-footer p {
+  width: 50%;
+  font-size: 1rem;
+}
+
+.Stats-icon {
+  background: #f2f7fb;
+  border-radius: 50%;
+  width: 2rem;
+  font-size: 1.2rem;
+  height: 2rem;
+}
+
+.Stats-icon svg {
+  margin-top: 0.4rem;
+  stroke: #979ab2;
+}
+
+.Stats-icon svg path {
+  margin-top: 0.4rem;
+  stroke: #979ab2;
+}

@@ -1,0 +1,22 @@
+.Input-field .Title {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #5f6388;
+}
+
+.Input-field input {
+  padding: 0.7rem 1rem;
+  border: 0;
+  color: #5f6388;
+  background: #e7ecf2;
+  width: 90%;
+  font-size: 0.9rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+
+.Input-field input::placeholder {
+  color: #5f6388;
+  font-weight: 500;
+  opacity: 1; /* Firefox */
+}

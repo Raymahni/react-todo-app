@@ -1,0 +1,31 @@
+.Line-chart-card {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.Line-chart-card .Line-chart-header .Line-chart-filter button {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  margin: 0 1rem;
+  color: #005455;
+  font-weight: 500;
+  padding-bottom: 0.7rem;
+  cursor: pointer;
+}
+
+.Line-chart-card .Line-chart-header .Line-chart-filter button:last-child {
+  margin-right: 0;
+}
+
+.Line-chart-card .Line-chart-header .Line-chart-filter button.Active {
+  color: #f8b401;
+  border-bottom: 2px solid #f8b401;
+  transition: 0.3s ease-in-out;
+}
+
+.Line-chart-card .Line-chart {
+  height: auto;
+}

@@ -1,0 +1,20 @@
+.Messages-area ul {
+  list-style: none;
+}
+
+.Messages-area ul li {
+  margin: 1.5rem 0;
+}
+
+.Messages-area ul li.Message-item .Image {
+  padding: 2px;
+  border: 1px solid orange;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.Messages-area ul li.Message-item .Image img {
+  width: 3rem;
+  border-radius: 50%;
+}

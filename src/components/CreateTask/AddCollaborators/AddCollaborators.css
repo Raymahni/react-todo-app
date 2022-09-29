@@ -1,0 +1,62 @@
+.Add-collaborators .Title {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #5f6388;
+}
+
+.Add-collaborators .Collaborators-list .Collaborators-list-items {
+  width: 90%;
+  overflow-x: scroll;
+  margin-right: 1rem;
+}
+
+.Add-collaborators .Collaborators-list .Collaborators-list-items .List-item {
+  margin-right: 1rem;
+  border-radius: 1.5rem;
+  padding: 0.3rem;
+}
+
+.Add-collaborators
+  .Collaborators-list
+  .Collaborators-list-items
+  .List-item
+  img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
+.Add-collaborators
+  .Collaborators-list
+  .Collaborators-list-items
+  .List-item
+  svg {
+  cursor: pointer;
+}
+
+.Add-collaborators .Collaborators-list button.Add-button {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.2rem;
+  background: #e8edf0;
+  padding-top: 0.25rem;
+  cursor: pointer;
+}
+
+.Add-collaborators .Add-new-collaborator button.Submit-button {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  background: #4ba7a8;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  margin-left: 2rem;
+}
+
+.Add-collaborators .Add-new-collaborator .Submit-button svg {
+  margin-top: 0.25rem;
+}

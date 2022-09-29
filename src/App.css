@@ -1,0 +1,13 @@
+.App {
+  width: 100%;
+  display: flex;
+}
+
+.Content-area {
+  width: 93%;
+  padding-left: 7%;
+}
+
+.App-link {
+  color: #61dafb;
+}

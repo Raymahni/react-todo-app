@@ -1,0 +1,21 @@
+.Input-search-field input {
+  padding: 1rem;
+  border: 0;
+  color: #5f6388;
+  background: #f2f7fb;
+  width: 16rem;
+  font-size: 0.9rem;
+  border-radius: 0.5rem;
+}
+
+.Input-search-field input::placeholder {
+  color: #5f6388;
+  opacity: 1; /* Firefox */
+}
+
+.Input-search-field .Search-icon {
+  right: 1rem;
+  top: 0.8rem;
+  font-size: 1.3rem;
+  stroke: #4ba8a8;
+}

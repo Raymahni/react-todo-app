@@ -1,0 +1,32 @@
+.Create-task-area {
+  width: 25%;
+  background: #fff;
+  height: auto;
+  padding: 1.5rem 2rem;
+}
+
+.Create-task-area .Main-title-area .Title-toggle {
+  width: 3rem;
+  background: #f4f4f4;
+  border-radius: 1rem;
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+}
+
+.Create-task-area .Main-title-area .Title-toggle svg path {
+  stroke: #5f6388;
+}
+
+.Create-task-area .Main-title-area .Title-toggle svg.lighter path {
+  stroke: #979ab2;
+}
+
+.Create-task-area .Create-task-form .Emoji-list img {
+  width: 17rem;
+  margin: 0 0.5rem;
+}
+
+.Create-task-area .Create-task-form .Emoji-list svg {
+  stroke: #4ba8a8;
+  font-size: 1.5rem;
+}

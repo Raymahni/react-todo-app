@@ -1,0 +1,46 @@
+.Action-dropdown button {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.Action-dropdown .Dropdown {
+  display: none;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 2px 5px 10px 1px lightgrey;
+  position: absolute;
+  top: 2rem;
+  right: 0;
+  z-index: 1000;
+}
+
+.Action-dropdown .Dropdown.show {
+  display: block;
+  transition: 0.3s ease-in-out;
+}
+
+.Action-dropdown .Dropdown ul {
+  list-style: none;
+}
+
+.Action-dropdown .Dropdown ul li {
+  font-size: 0.75rem;
+  color: #5f6388;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+.Action-dropdown .Dropdown ul li:hover {
+  background: #5f6388;
+  color: #fff;
+}
+
+.Action-dropdown .Dropdown ul li:first-child {
+  margin-top: 0;
+}
+
+.Action-dropdown .Dropdown ul li:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,53 @@
+.Table-filter-dropdown button {
+  background: #fff;
+  border: 1px solid #4ba8a8;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.Table-filter-dropdown .Dropdown {
+  display: none;
+  background: #fff;
+  border-radius: 0.5rem;
+  width: 7rem;
+  box-shadow: 2px 5px 10px 1px lightgrey;
+  position: absolute;
+  top: 2.5rem;
+  padding: 0.5rem 0.5rem;
+  right: 0;
+  z-index: 1000;
+}
+
+.Table-filter-dropdown .Dropdown.show {
+  display: block;
+  transition: 0.3s ease-in-out;
+}
+
+.Table-filter-dropdown .Dropdown ul {
+  list-style: none;
+}
+
+.Table-filter-dropdown .Dropdown ul li {
+  font-size: 0.75rem;
+  color: #5f6388;
+  cursor: pointer;
+  margin: 0.3rem 0;
+  align-items: center;
+  display: flex;
+}
+
+.Table-filter-dropdown .Dropdown ul li p {
+  margin-top: 0.2rem;
+  margin-bottom: 0;
+  margin-left: 0.5rem;
+}
+
+.Table-filter-dropdown .Dropdown ul li:first-child {
+  margin-top: 0;
+}
+
+.Table-filter-dropdown .Dropdown ul li:last-child {
+  margin-bottom: 0;
+}

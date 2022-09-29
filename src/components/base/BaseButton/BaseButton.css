@@ -1,0 +1,14 @@
+.Base-button button {
+  padding: 0.7rem 1.5rem;
+  border-radius: 0.5rem;
+  width: fit-content;
+  color: #fff;
+  background: #4ba8a8;
+  border: none;
+  cursor: pointer;
+}
+
+.Base-button button:disabled,
+.Base-button button[disabled] {
+  background-color: #e3e8ef;
+}

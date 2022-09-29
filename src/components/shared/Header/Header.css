@@ -1,0 +1,52 @@
+.Header {
+  padding: 1rem 2rem;
+  background: #fff;
+}
+
+.Header .Input-search-area {
+  width: 50%;
+}
+
+.Header .Profile-area {
+  width: 50%;
+}
+
+.Header .Profile-area ul {
+  list-style: none;
+}
+
+.Header .Profile-area ul li {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.Header .Profile-area ul li:last-child {
+  margin-right: 0;
+}
+
+.Header .Profile-area ul li.Notification {
+  font-size: 1.3rem;
+}
+
+.Header .Profile-area ul li.Notification svg {
+  stroke: #5f6388;
+}
+
+.Header .Profile-area ul li.Notification .Notification-badge {
+  width: 0.75rem;
+  height: 0.75rem;
+  background: #4ba8a8;
+  color: #fff;
+  font-size: 0.6rem;
+  border-radius: 50%;
+  top: -5px;
+  right: -1px;
+}
+
+.Header .Profile-area ul li.Profile-picture img {
+  width: 2.8rem;
+}
+
+.Header .Profile-area ul li.Profile-picture svg {
+  stroke: #4ba8a8;
+}
